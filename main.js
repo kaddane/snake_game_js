@@ -10,7 +10,8 @@ const gameBoard = document.getElementById("game-board");
 function main(currentTime){
     if (gameOver){
         if(confirm("you lost . pass ok to restrt")){
-            window.location = "/"
+            // window.location = "/"
+            window.location.reload();
         }
         return;
     }
