@@ -3,7 +3,7 @@
 
 
 let LastRenderTime = 0;
-const snake_spade = 5;
+const snake_spade = 1;
 const gameBoard = document.getElementById("game-board");
 
 
